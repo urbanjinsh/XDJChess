@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#click" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.xdj.ChessBoardCtrl">
+   <children>
+      <Line endX="-120.0" layoutX="200.0" layoutY="200.0" startX="120.0" />
+      <Line endX="120.0" layoutX="200.0" layoutY="200.0" rotate="90.0" startX="-120.0" />
+      <Line endX="-120.0" layoutX="200.0" layoutY="240.0" startX="120.0" />
+      <Line endX="-120.0" layoutX="200.0" layoutY="160.0" startX="120.0" />
+      <Line endX="120.0" layoutX="240.0" layoutY="200.0" rotate="90.0" startX="-120.0" />
+      <Line endX="120.0" layoutX="160.0" layoutY="200.0" rotate="90.0" startX="-120.0" />
+      <Line endX="40.0" layoutX="200.0" layoutY="320.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="200.0" layoutY="280.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="200.0" layoutY="120.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="200.0" layoutY="80.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="80.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="120.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="320.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
+      <Line endX="40.0" layoutX="280.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
+   </children>
+</AnchorPane>
