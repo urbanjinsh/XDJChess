@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
-
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#click" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.xdj.ChessBoardCtrl">
    <children>
@@ -20,5 +22,41 @@
       <Line endX="40.0" layoutX="120.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
       <Line endX="40.0" layoutX="320.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
       <Line endX="40.0" layoutX="280.0" layoutY="200.0" rotate="90.0" startX="-40.0" />
+      <Circle fx:id="p1_d_circle" fill="#0084ff" layoutX="81.0" layoutY="161.0" onMouseClicked="#p1_click" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p1_d_text" layoutX="74.0" layoutY="150.0" onMouseClicked="#p1_click" text="典">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="p1_x_circle" fill="#0084ff" layoutX="81.0" layoutY="201.0" onMouseClicked="#p1_click" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p1_x_text" layoutX="74.0" layoutY="190.0" onMouseClicked="#p1_click" text="孝">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="p1_j_circle" fill="#0084ff" layoutX="81.0" layoutY="241.0" onMouseClicked="#p1_click" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p1_j_text" layoutX="74.0" layoutY="230.0" onMouseClicked="#p1_click" text="急">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="p2_d_circle" fill="#ff3600" layoutX="321.0" layoutY="160.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p2_d_text" layoutX="314.0" layoutY="149.0" text="典">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="p2_x_circle" fill="#ff3600" layoutX="320.0" layoutY="200.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p2_x_text" layoutX="313.0" layoutY="189.0" text="孝">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="p2_j_circle" fill="#ff3600" layoutX="320.0" layoutY="240.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="p2_j_text" layoutX="313.0" layoutY="229.0" text="急">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
